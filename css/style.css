@@ -1,0 +1,86 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #171717;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2b580c;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;}
+
+.navigation {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+position: fixed;
+top: 0;
+letter-spacing: 1px;
+}
+.logo {
+  margin: 30px 50px;
+  font-size: 20px;
+}
+.menu {
+display: flex;
+list-style: none;
+margin: 20px 30px;
+font-size: 18px;
+
+}
+.menu_item {
+  margin: auto 20px;
+}
+.form-box {
+  width: 459px;
+  height: 493px;
+  border: 2px #2b580c solid;
+  padding: 20px 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.form-box_title {
+  font-size: 25px;
+  margin: 0;
+}
+.form-box_info {
+  font-weight: 100;
+  margin: 30px auto 50px auto;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form_text-input {
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 1px grey;
+  color: white;
+  width: 80%;
+  margin: 15px 0;
+  outline: none;
+  padding-bottom: 5px;
+}
+.form_button {
+  margin: 50px auto 20px auto;
+  border: none;
+  display: block;
+  font-size: 17px;
+  padding: 10px 15px;
+  background-color: white;
+  font-weight: 600;
+  color: #2b580c;
+}
+.form_checkbox-label {
+  font-size: 13px;
+  font-weight: 100;
+}
